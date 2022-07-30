@@ -37,7 +37,7 @@ test yor connection by type `ssh private_instance`
 `ansible-playbook apply -f ec2-ansible.yml`
 
 ## open jenkins server and create a new node
-![ec2 node configration](/Jenkins-Project/ec2-configration.png)
+![ec2 node configration](/ec2-configration.png)
 
 ## Download .jar file and copy it to ec2 instance in path ~/bin
 `scp agent.jar ubuntu@private_instance:~/bin`
@@ -82,7 +82,7 @@ pipeline{
     
 }
 ```
-![pipeline result](/Jenkins-Project/pipeline.png)
+![pipeline result](/pipeline.png)
 
 go to RDS and create securitygroup to allow port 3306 and 22 inpound traffic
 
